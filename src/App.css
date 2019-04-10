@@ -1,0 +1,261 @@
+
+*{
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+/* Navbar */
+.navbar{
+  display: flex;  
+  margin-left: auto;
+}
+
+.navbar-option{
+  margin: 0 25px;
+  text-decoration: none;
+}
+
+.navbar-img{
+  display: block;
+}
+
+.navbar-option p{
+  font-size: 20px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.navbar-option:hover{
+  background: #000000;
+  background: -webkit-linear-gradient(to bottom, #1b7799, #000000);  
+  background: linear-gradient(to bottom, #1b7799, #000000); 
+  padding: 10px;
+}
+
+/* Home */
+.par_mob{
+  height: 600px;
+}
+
+.par_mob_a{
+  height: 500px;
+}
+
+.home_port{
+  color: #41A3C6;
+  font-size: 30px;
+  text-align: left;
+}
+
+.home_title{
+  font-size: 30px;
+  text-align: left;
+}
+
+.home_about{
+  font-size: 18px;
+  text-align: left;
+}
+
+.home_hello{
+  background: #eaeced;  
+  background: -webkit-linear-gradient(to top, #FFFFFF, #eaeced); 
+  background: linear-gradient(to top, #FFFFFF, #eaeced); 
+  padding: 60px;
+}
+
+.shome_skills{
+  background: #eaeced;  
+  background: -webkit-linear-gradient(to top, #FFFFFF, #eaeced); 
+  background: linear-gradient(to top, #FFFFFF, #eaeced); 
+  margin: 50px 150px;
+}
+
+img{
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.fab, .fas{
+  color: white;
+  font-size: 26px;
+  margin: 20px 50px;
+}
+
+.fa-graduation-cap{
+margin: 15px; 
+}
+
+.fa-briefcase{
+  margin: 18px;
+} 
+
+/* About */
+
+.sabout_me{
+  background: #eaeced;  
+  background: -webkit-linear-gradient(to top, #FFFFFF, #eaeced); 
+  background: linear-gradient(to top, #FFFFFF, #eaeced);
+  padding: 60px;
+}
+
+.sabout_me p{
+  margin: 0;
+}
+
+.sabout_exp{
+  background: #eaeced;  
+  background: -webkit-linear-gradient(to top, #FFFFFF, #eaeced); 
+  background: linear-gradient(to top, #FFFFFF, #eaeced);
+  padding: 60px;
+}
+
+.sabout_extra{
+  background: #eaeced;  
+  background: -webkit-linear-gradient(to top, #FFFFFF, #eaeced); 
+  background: linear-gradient(to top, #FFFFFF, #eaeced);
+  padding: 60px;
+}
+
+.container{
+  display: flex;
+}
+
+.container_skills{
+  width: 100%;
+}
+
+.container_cv{
+  width: 100%;
+}
+
+.skills_btns{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top:15px;
+}
+.skills_btn{
+  border: 2px solid  #41A3C6;
+  background: transparent;
+  border-radius: 3px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 120px;
+  text-align: center;
+}
+
+.about_cont{
+  color: #41A3C6;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.sabout_exp p{
+  margin: 0;
+}
+
+.about_port{
+  color: #41A3C6;
+  font-size: 22px;
+  text-align: left;
+}
+
+.about_title{
+  font-size: 22px;
+  text-align: left;
+}
+
+.about_about{
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Footer */
+.footer{
+  background: black;
+  height: 140px;
+  display: flex; 
+}
+
+.icons{
+  margin: 0 auto;
+}
+
+ul{
+  display: flex;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.copyright{
+  color: white;
+  font-size: 30px;
+  margin: 0 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1024px) {
+  .fa-graduation-cap{
+    margin: 5px; 
+    }
+
+  .fa-briefcase{
+    margin: 5px;
+  }  
+}  
+
+@media only screen and (max-width: 425px) {
+
+  .navbar-option{
+    padding: 5px;
+  }
+
+  .navbar-img{
+    height: 60px;
+  }
+  
+  .navbar-option p{
+    font-size: 14px;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+  }
+
+  .par_mob{
+    height: 250px;
+  }
+
+  .par_mob_a{
+    height: 250px;
+  }
+ 
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar{
+    margin-left: 5px;
+  }
+  .navbar-option{
+    margin: 0 5px;
+    text-decoration: none;
+  }
+
+  .fab, .fas{
+    color: white;
+    font-size: 24px;
+    margin: 20px 40px;
+  }
+
+  .shome_skills{
+    margin: 50px 100px;
+  }
+}
+
