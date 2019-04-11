@@ -235,7 +235,8 @@ li{
   }
 
   .navbar-img{
-    height: 60px;
+    height: 40px;
+    margin: 10px 0;
   }
   
   .navbar-option p{
@@ -262,6 +263,8 @@ li{
   .navbar{
     margin-left: 5px;
   }
+
+
   .navbar-option{
     margin: 0 5px;
     text-decoration: none;
