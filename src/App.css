@@ -16,6 +16,8 @@
 
 .navbar-img{
   display: block;
+  margin: 20px 0;
+  height: 50px;
 }
 
 .navbar-option p{
@@ -249,6 +251,10 @@ li{
   .par_mob_a{
     height: 250px;
   }
+
+  .shome_skills{
+    margin: 50px 80px;
+  }
  
 }
 
@@ -268,7 +274,7 @@ li{
   }
 
   .shome_skills{
-    margin: 50px 100px;
+    margin: 50px 70px;
   }
 }
 
