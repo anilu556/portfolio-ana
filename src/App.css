@@ -1,5 +1,6 @@
 
 *{
+  
   font-family: 'Didact Gothic', sans-serif;
 }
 
@@ -16,8 +17,6 @@
 
 .navbar-img{
   display: block;
-  margin: 20px 0;
-  height: 50px;
 }
 
 .navbar-option p{
@@ -234,10 +233,7 @@ li{
     padding: 5px;
   }
 
-  .navbar-img{
-    height: 40px;
-    margin: 10px 0;
-  }
+  
   
   .navbar-option p{
     font-size: 14px;
