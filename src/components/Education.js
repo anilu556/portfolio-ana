@@ -24,7 +24,7 @@ class Prueba extends Component {
           >
             <h3 className="vertical-timeline-element-title">Web Editor</h3>
             <h4 className="vertical-timeline-element-subtitle">Sección Amarilla</h4>
-            <p>Elaboration of descriptive texts for digital products | SEO strategy </p>
+            <p>Elaboration of descriptive texts for digital products | SEO strategies </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -42,7 +42,7 @@ class Prueba extends Component {
             iconStyle={{ background: 'rgb(14, 178, 204)', color: '#fff'}}
             icon={<i className="fas fa-graduation-cap"></i>}
           >
-            <h3 className="vertical-timeline-element-title">Jr. Full-stackWeb Developer</h3>
+            <h3 className="vertical-timeline-element-title">Jr. Full-stack Web Developer</h3>
             <h4 className="vertical-timeline-element-subtitle">Muktek Academy</h4>
             
           </VerticalTimelineElement>
