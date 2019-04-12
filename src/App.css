@@ -1,6 +1,5 @@
 
 *{
-  
   font-family: 'Didact Gothic', sans-serif;
 }
 
@@ -154,6 +153,7 @@ margin: 15px;
   justify-content: center;
   margin: 15px;
 }
+
 .download_btn{
   background: #41A3C6;
   border: none;
@@ -188,6 +188,87 @@ margin: 15px;
   text-align: left;
 }
 
+/* Work */
+
+.swork{
+  background: #eaeced;  
+  background: -webkit-linear-gradient(to top, #FFFFFF, #eaeced); 
+  background: linear-gradient(to top, #FFFFFF, #eaeced);
+}
+
+.swork_projects{
+  height: 500px;
+  padding: 0 60px;
+}
+
+.swork_img{
+  height: 400px;
+}
+
+.swork_tech{
+  background: black;
+  height: 280px ;
+}
+
+.swork_tech_title{
+  margin: 0;
+  color: white;
+  font-size: 22px;
+  top: 50px;
+  padding: 80px 0 10px 60px;
+}
+
+.work_port{
+  color: #41A3C6;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 0;
+}
+
+.work_btns{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work_btn{
+  border: 2px solid  white;
+  background: transparent;
+  border-radius: 3px;
+  width: 60px;
+  height: 60px;
+  margin: 0 15px;
+}
+
+.fa-html5, .fa-css3-alt{
+  color: white;
+  font-size: 50px;
+  margin: 7px 13px;
+}
+
+.fa-js{
+  color: white;
+  font-size: 50px;
+  margin: 6px 9px;
+}
+
+.work_btns{
+  position: relative;
+}
+
+.ver_btn{
+  background: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  margin: 20px 50px;
+}
+
+.ver{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
 /* Footer */
 .footer{
   background: black;
@@ -250,6 +331,10 @@ li{
   .shome_skills{
     margin: 50px 80px;
   }
+
+  .swork_img{
+    height: 200px;
+  }
  
 }
 
@@ -257,7 +342,6 @@ li{
   .navbar{
     margin-left: 5px;
   }
-
 
   .navbar-option{
     margin: 0 5px;
