@@ -99,10 +99,10 @@ class Work extends Component {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/reto-react-redux" target="_blank">
+                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/reto-react-redux" target="_blank" rel="noopener noreferrer">
                                     Github
                                     </a></Button>
-                                    <Button size="small" color="primary"><a href="https://appointments.netlify.com/" target="_blank">
+                                    <Button size="small" color="primary"><a href="https://appointments.netlify.com/" target="_blank" rel="noopener noreferrer">
                                     Deploy
                                     </a></Button>
                                 </CardActions>
@@ -125,10 +125,10 @@ class Work extends Component {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/project--mallory-furniture" target="_blank">
+                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/project--mallory-furniture" target="_blank" rel="noopener noreferrer">
                                         Github
                                     </a></Button>
-                                    <Button size="small" color="primary"><a href="https://mallory-furniture-project.netlify.com/#/" target="_blank"> 
+                                    <Button size="small" color="primary"><a href="https://mallory-furniture-project.netlify.com/#/" target="_blank" rel="noopener noreferrer"> 
                                         Deploy
                                     </a></Button>
                                 </CardActions>
@@ -151,13 +151,13 @@ class Work extends Component {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/university-website" target="_blank">
+                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/university-website" target="_blank" rel="noopener noreferrer">
                                     Github Front
                                     </a></Button>
-                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/westside-university" target="_blank">
+                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/westside-university" target="_blank" rel="noopener noreferrer">
                                     Github Back
                                     </a></Button>
-                                    <Button size="small" color="primary"><a href="https://westside-university.netlify.com/#/" target="_blank">
+                                    <Button size="small" color="primary"><a href="https://westside-university.netlify.com/#/" target="_blank" rel="noopener noreferrer">
                                     Deploy
                                     </a></Button>
                                 </CardActions>
@@ -180,13 +180,13 @@ class Work extends Component {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" color="primary"><a href="https://github.com/anilu556/mr-manager-front" target="_blank">
+                                <Button size="small" color="primary"><a href="https://github.com/anilu556/mr-manager-front" target="_blank" rel="noopener noreferrer">
                                     Github Front
                                 </a></Button>
-                                <Button size="small" color="primary"><a href="https://github.com/anilu556/mr-manager-back" target="_blank">
+                                <Button size="small" color="primary"><a href="https://github.com/anilu556/mr-manager-back" target="_blank" rel="noopener noreferrer">
                                     Github Back
                                 </a></Button>
-                                <Button size="small" color="primary"><a href="https://mrmanager.netlify.com/#/" target="_blank">
+                                <Button size="small" color="primary"><a href="https://mrmanager.netlify.com/#/" target="_blank" rel="noopener noreferrer">
                                     Deploy
                                 </a></Button>
                             </CardActions>
@@ -211,7 +211,7 @@ class Work extends Component {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" color="primary"><a href="http://dits.com.mx/" target="_blank">
+                                <Button size="small" color="primary"><a href="http://dits.com.mx/" target="_blank" rel="noopener noreferrer">
                                     Link
                                 </a></Button>
                             </CardActions>
@@ -234,7 +234,7 @@ class Work extends Component {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small" color="primary"><a href="https://revistamundoequino.com/" target="_blank">
+                                    <Button size="small" color="primary"><a href="https://revistamundoequino.com/" target="_blank" rel="noopener noreferrer">
                                         Link
                                     </a></Button>
                                 </CardActions>
@@ -257,7 +257,7 @@ class Work extends Component {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small" color="primary"><a href="https://workingdog.com.mx/trainingcamp/" target="_blank">
+                                    <Button size="small" color="primary"><a href="https://workingdog.com.mx/trainingcamp/" target="_blank" rel="noopener noreferrer">
                                         Link
                                     </a></Button>
                                 </CardActions>
@@ -280,7 +280,7 @@ class Work extends Component {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small" color="primary"><a href="http://molegloriaelena.com.mx/" target="_blank">
+                                    <Button size="small" color="primary"><a href="http://molegloriaelena.com.mx/" target="_blank" rel="noopener noreferrer">
                                         Link
                                     </a></Button>
                                 </CardActions>

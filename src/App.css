@@ -1,9 +1,14 @@
 
 *{
+  outline: 1px solid red;
   font-family: 'Didact Gothic', sans-serif;
 }
 
 /* Navbar */
+
+.MuiToolbar-root-38.MuiToolbar-regular-40.MuiToolbar-gutters-39{
+  padding: 0px;
+}
 .navbar{
   display: flex;  
   margin-left: auto;
@@ -16,6 +21,7 @@
 
 .navbar-img{
   display: block;
+  padding-right: 5px;
 }
 
 .navbar-option p{
