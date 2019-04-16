@@ -1,5 +1,6 @@
 
 *{
+  /* outline: 1px solid red; */
   font-family: 'Didact Gothic', sans-serif;
 }
 
@@ -197,7 +198,6 @@ margin: 15px;
 }
 
 .swork_projects{
-  height: 500px;
   padding: 0 60px;
 }
 
@@ -207,7 +207,6 @@ margin: 15px;
 
 .swork_tech{
   background: black;
-  height: 280px ;
 }
 
 .swork_tech_title{
@@ -246,14 +245,34 @@ margin: 15px;
   margin: 7px 13px;
 }
 
-.fa-js{
+.fa-js, .fa-git{
   color: white;
   font-size: 50px;
   margin: 6px 9px;
 }
 
-.work_btns{
-  position: relative;
+.fa-react, .fa-wordpress, .fa-adobe, .icon-mongodb{
+  color: white;
+  font-size: 50px;
+  margin: 6px 5px;
+}
+
+.fa-node{
+  color: white;
+  font-size: 46px;
+  margin: 6px 2px;
+}
+
+.icon-heroku{
+  color: white;
+  font-size: 56px;
+  margin: 55px 20px;
+}
+.work_btns_more{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .ver_btn{
@@ -269,6 +288,28 @@ margin: 15px;
   justify-content: center;
   margin: 15px;
 }
+
+/* Projects */
+
+.project_cards_dev{
+ display: flex;
+}
+
+.projects_dev{
+  width: 25%;
+  padding: 10px;
+}
+
+.project_cards_wp{
+  display: flex;
+  margin: 20px 0;
+}
+
+.projects_wp{
+  width: 25%;
+  padding: 10px;
+}
+
 /* Footer */
 .footer{
   background: black;
