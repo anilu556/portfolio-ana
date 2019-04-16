@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -65,16 +64,17 @@ class Work extends Component {
                         <div className="work_btn"><i className="fab fa-adobe"></i></div>
                         <div className="work_btn"><i className="icon-mongodb"></i></div>
                         <div className="work_btn"><i className="icon-heroku"></i></div>
+                        <div className="work_btn"><i className="icon-bootstrap"></i></div>
                     </div> 
                     :null
                     } 
                     {
                     this.state.showTech?    
                         <div className="ver"> 
-                            <button onClick={this.showMore} className="ver_btn">Ver menos</button>
+                            <button onClick={this.showMore} className="ver_btn">Show -</button>
                         </div>
                     :<div className="ver"> 
-                        <button onClick={this.showMore} className="ver_btn">Ver más</button>
+                        <button onClick={this.showMore} className="ver_btn">Show +</button>
                     </div>
                     }
                    
@@ -99,38 +99,12 @@ class Work extends Component {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small" color="primary">
+                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/reto-react-redux" target="_blank">
                                     Github
-                                    </Button>
-                                    <Button size="small" color="primary">
+                                    </a></Button>
+                                    <Button size="small" color="primary"><a href="https://appointments.netlify.com/" target="_blank">
                                     Deploy
-                                    </Button>
-                                </CardActions>
-                            </Card>
-                        </div>
-                        <div className="projects_dev">
-                            <Card className={classes.card}>
-                                <CardMedia
-                                    className={classes.media}
-                                    image={university}
-                                    title="University"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2">
-                                        Westside University
-                                    </Typography>
-                                    <Typography component="p">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                        across all continents except Antarctica
-                                    </Typography>
-                                </CardContent>
-                                <CardActions>
-                                    <Button size="small" color="primary">
-                                        Github
-                                    </Button>
-                                    <Button size="small" color="primary">
-                                        Deploy
-                                    </Button>
+                                    </a></Button>
                                 </CardActions>
                             </Card>
                         </div>
@@ -151,12 +125,41 @@ class Work extends Component {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small" color="primary">
+                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/project--mallory-furniture" target="_blank">
                                         Github
-                                    </Button>
-                                    <Button size="small" color="primary">
+                                    </a></Button>
+                                    <Button size="small" color="primary"><a href="https://mallory-furniture-project.netlify.com/#/" target="_blank"> 
                                         Deploy
-                                    </Button>
+                                    </a></Button>
+                                </CardActions>
+                            </Card>
+                        </div>
+                        <div className="projects_dev">
+                            <Card className={classes.card}>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={university}
+                                    title="University"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                        Westside University
+                                    </Typography>
+                                    <Typography component="p">
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+                                        across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/university-website" target="_blank">
+                                    Github Front
+                                    </a></Button>
+                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/westside-university" target="_blank">
+                                    Github Back
+                                    </a></Button>
+                                    <Button size="small" color="primary"><a href="https://westside-university.netlify.com/#/" target="_blank">
+                                    Deploy
+                                    </a></Button>
                                 </CardActions>
                             </Card>
                         </div>
@@ -177,12 +180,15 @@ class Work extends Component {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" color="primary">
-                                    Github
-                                </Button>
-                                <Button size="small" color="primary">
+                                <Button size="small" color="primary"><a href="https://github.com/anilu556/mr-manager-front" target="_blank">
+                                    Github Front
+                                </a></Button>
+                                <Button size="small" color="primary"><a href="https://github.com/anilu556/mr-manager-back" target="_blank">
+                                    Github Back
+                                </a></Button>
+                                <Button size="small" color="primary"><a href="https://mrmanager.netlify.com/#/" target="_blank">
                                     Deploy
-                                </Button>
+                                </a></Button>
                             </CardActions>
                         </Card>
                         </div>
@@ -205,9 +211,9 @@ class Work extends Component {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" color="primary">
+                                <Button size="small" color="primary"><a href="http://dits.com.mx/" target="_blank">
                                     Link
-                                </Button>
+                                </a></Button>
                             </CardActions>
                         </Card>
                         </div>
@@ -228,9 +234,9 @@ class Work extends Component {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small" color="primary">
+                                    <Button size="small" color="primary"><a href="https://revistamundoequino.com/" target="_blank">
                                         Link
-                                    </Button>
+                                    </a></Button>
                                 </CardActions>
                             </Card>
                         </div>
@@ -251,9 +257,9 @@ class Work extends Component {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small" color="primary">
+                                    <Button size="small" color="primary"><a href="https://workingdog.com.mx/trainingcamp/" target="_blank">
                                         Link
-                                    </Button>
+                                    </a></Button>
                                 </CardActions>
                             </Card>
                         </div>
@@ -274,9 +280,9 @@ class Work extends Component {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small" color="primary">
+                                    <Button size="small" color="primary"><a href="http://molegloriaelena.com.mx/" target="_blank">
                                         Link
-                                    </Button>
+                                    </a></Button>
                                 </CardActions>
                             </Card>
                         </div>

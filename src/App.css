@@ -1,6 +1,5 @@
 
 *{
-  /* outline: 1px solid red; */
   font-family: 'Didact Gothic', sans-serif;
 }
 
@@ -251,10 +250,22 @@ margin: 15px;
   margin: 6px 9px;
 }
 
-.fa-react, .fa-wordpress, .fa-adobe, .icon-mongodb{
+.fa-react, .fa-wordpress, .fa-adobe{
   color: white;
   font-size: 50px;
   margin: 6px 5px;
+}
+
+.icon-mongodb, .icon-bootstrap{
+  color: white;
+  font-size: 46px;
+  margin: 5px 8px;
+}
+
+.icon-heroku{
+  color: white;
+  font-size: 54px;
+  margin: 15px;
 }
 
 .fa-node{
@@ -263,11 +274,6 @@ margin: 15px;
   margin: 6px 2px;
 }
 
-.icon-heroku{
-  color: white;
-  font-size: 56px;
-  margin: 55px 20px;
-}
 .work_btns_more{
   display: flex;
   flex-wrap: wrap;
@@ -276,11 +282,11 @@ margin: 15px;
 }
 
 .ver_btn{
-  background: white;
-  border: none;
   border-radius: 3px;
   font-size: 20px;
+  font-weight: bold;
   margin: 20px 50px;
+  background-color: white;
 }
 
 .ver{
@@ -300,6 +306,12 @@ margin: 15px;
   padding: 10px;
 }
 
+.MuiPaper-root-11.MuiPaper-elevation1-14.MuiPaper-rounded-12.MuiCard-root-80.Work-card-78{
+  -webkit-box-shadow: 3px 3px 19px -6px rgba(20,20,20,1);
+  -moz-box-shadow: 3px 3px 19px -6px rgba(20,20,20,1);
+  box-shadow: 3px 3px 19px -6px rgba(20,20,20,1);
+}
+
 .project_cards_wp{
   display: flex;
   margin: 20px 0;
@@ -310,6 +322,19 @@ margin: 15px;
   padding: 10px;
 }
 
+.btn_link{
+  color:  #41A3C6;
+}
+
+.MuiTypography-root-42.MuiTypography-h5-58.MuiTypography-gutterBottom-69{
+  color:  #41A3C6;
+}
+
+a{
+  text-decoration: none;
+  color: #41A3C6;
+  font-weight: bold; 
+}
 /* Footer */
 .footer{
   background: black;
@@ -349,6 +374,36 @@ li{
   }  
 }  
 
+@media only screen and (max-width: 1024px) {
+
+  .project_cards_dev{
+    display: inline;
+   }
+
+   .projects_dev{
+    width: 100%;
+    margin: 15px 0;
+    padding: 0;
+  } 
+
+  .MuiPaper-root-11.MuiPaper-elevation1-14.MuiPaper-rounded-12.MuiCard-root-80.Work-card-78{
+    -webkit-box-shadow: 3px 3px 19px -6px rgba(20,20,20,1);
+    -moz-box-shadow: 3px 3px 19px -6px rgba(20,20,20,1);
+    box-shadow: 3px 3px 19px -6px rgba(20,20,20,1);
+    margin: auto;
+  }
+
+  .project_cards_wp{
+    display: inline;
+   }
+
+   .projects_wp{
+    width: 100%;
+    margin: 15px auto;
+    padding: 0;
+  }
+}
+
 @media only screen and (max-width: 425px) {
 
   .navbar-option{
@@ -376,6 +431,21 @@ li{
   .swork_img{
     height: 200px;
   }
+
+  .work_btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .work_btn{
+    border: 2px solid  white;
+    background: transparent;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+    margin: 0 15px 15px 15px;
+  }
  
 }
 
@@ -398,5 +468,31 @@ li{
   .shome_skills{
     margin: 50px 70px;
   }
+
+
+.fa-html5, .fa-css3-alt{
+  color: white;
+  font-size: 50px;
+  margin: 7px 13px;
+}
+
+.fa-js, .fa-git{
+  color: white;
+  font-size: 50px;
+  margin: 6px 9px;
+}
+
+.fa-react, .fa-wordpress, .fa-adobe{
+  color: white;
+  font-size: 50px;
+  margin: 6px 5px;
+}
+
+.fa-node{
+  color: white;
+  font-size: 46px;
+  margin: 6px 2px;
+}
+  
 }
 
