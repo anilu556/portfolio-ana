@@ -57,47 +57,44 @@ class Home extends React.Component {
             
         return(
             <div className="shome">
-            <React.Fragment>
-                <div className="shome_img"> 
-                <Parallax bgImage={image1} strength={-100}>
-                    <div className="par_mob">    
-                    </div>
-                </Parallax>    
-                </div> 
-                <div className="shome_text">  
-                 <Hello />  
-                </div>
-                <div className="shome_me">  
-                <Parallax
-                    bgImage={image2}
-                    strength={200}
-                    renderLayer={percentage => (
-                        <div>
-                        <div
-                            style={{
-                            position: "absolute",
-                            background: `rgb(65, 163, 198, ${percentage * 1})`,
-                            left: "50%",
-                            top: "50%",
-                            borderRadius: "50%",
-                            transform: "translate(-50%,-50%)",
-                            width: percentage * 350,
-                            height: percentage * 350
-                            }}
-                        />
-                        </div>
-                    )}
-                    >
-                    <div style={{ height: 300 }}>
-                        <div style={insideStyles}>Skills</div>
-                    </div>
-                </Parallax>  
-                </div>
-                <div className="shome_skills">
-                <SkillBar skills={skills} colors={colors}/>
-                
-                </div>
-            </React.Fragment>       
+              <React.Fragment>
+                  <div className="shome_img"> 
+                    <img className="img_home" src={image1} alt="home" />  
+                  </div> 
+                  <div className="shome_text">  
+                  <Hello />  
+                  </div>
+                  <div className="shome_me">  
+                  <Parallax
+                      bgImage={image2}
+                      strength={200}
+                      renderLayer={percentage => (
+                          <div>
+                          <div
+                              style={{
+                              position: "absolute",
+                              background: `rgb(65, 163, 198, ${percentage * 1})`,
+                              left: "50%",
+                              top: "50%",
+                              borderRadius: "50%",
+                              transform: "translate(-50%,-50%)",
+                              width: percentage * 350,
+                              height: percentage * 350
+                              }}
+                          />
+                          </div>
+                      )}
+                      >
+                      <div style={{ height: 300 }}>
+                          <div style={insideStyles}>Skills</div>
+                      </div>
+                  </Parallax>  
+                  </div>
+                  <div className="shome_skills">
+                  <SkillBar skills={skills} colors={colors}/>
+                  
+                  </div>
+              </React.Fragment>       
             </div>
                 )
             }

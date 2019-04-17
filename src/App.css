@@ -34,12 +34,9 @@
 }
 
 /* Home */
-.par_mob{
-  height: 600px;
-}
 
-.par_mob_a{
-  height: 500px;
+.shome{
+  margin-top: 30px;
 }
 
 .home_port{
@@ -72,10 +69,11 @@
   margin: 50px 150px;
 }
 
-img{
+.img_home{
   height: auto;
   max-width: 100%;
   display: block;
+  position: relative;
 }
 
 .fab, .fas, .far{
@@ -93,6 +91,16 @@ margin: 15px;
 } 
 
 /* About */
+
+.sabout{
+  margin-top: 40px;
+}
+
+.img_about{
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
 
 .sabout_me{
   background: #eaeced;  
@@ -361,23 +369,18 @@ li{
 .copyright{
   color: white;
   font-size: 30px;
-  margin: 0 10px;
+  margin: 0 10px 40px 0;
   text-align: center;
   font-size: 15px;
 }
 
-/* Responsive */
-@media only screen and (max-width: 1024px) {
-  .fa-graduation-cap{
-    margin: 5px; 
-    }
-
-  .fa-briefcase{
-    margin: 5px;
-  }  
-}  
+/* Responsive */ 
 
 @media only screen and (max-width: 1024px) {
+
+  .home{
+    position: absolute;
+  }
 
   .project_cards_dev{
     display: inline;
@@ -405,13 +408,17 @@ li{
     margin: 15px auto;
     padding: 0;
   }
+
+  .fa-graduation-cap{
+    margin: 5px; 
+    }
+
+  .fa-briefcase{
+    margin: 5px;
+  }  
 }
 
 @media only screen and (max-width: 425px) {
-
-  .navbar-option{
-    padding: 5px;
-  }
   
   .navbar-option p{
     font-size: 14px;
@@ -420,11 +427,11 @@ li{
   }
 
   .par_mob{
-    height: 250px;
+    height: 380px;
   }
 
   .par_mob_a{
-    height: 250px;
+    height: 280px;
   }
 
   .shome_skills{
@@ -457,44 +464,49 @@ li{
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .navbar-option{
+    margin: 0 5px;
+  }
+}  
+
 @media only screen and (max-width: 320px) {
+  
   .navbar{
     margin-left: 5px;
   }
 
   .navbar-option{
     margin: 0 5px;
-    text-decoration: none;
   }
 
   .shome_skills{
     margin: 50px 70px;
   }
 
+  .fa-html5, .fa-css3-alt{
+    color: white;
+    font-size: 50px;
+    margin: 7px 13px;
+  }
 
-.fa-html5, .fa-css3-alt{
-  color: white;
-  font-size: 50px;
-  margin: 7px 13px;
-}
+  .fa-js, .fa-git{
+    color: white;
+    font-size: 50px;
+    margin: 6px 9px;
+  }
 
-.fa-js, .fa-git{
-  color: white;
-  font-size: 50px;
-  margin: 6px 9px;
-}
+  .fa-react, .fa-wordpress, .fa-adobe{
+    color: white;
+    font-size: 50px;
+    margin: 6px 5px;
+  }
 
-.fa-react, .fa-wordpress, .fa-adobe{
-  color: white;
-  font-size: 50px;
-  margin: 6px 5px;
-}
-
-.fa-node{
-  color: white;
-  font-size: 46px;
-  margin: 6px 2px;
-}
+  .fa-node{
+    color: white;
+    font-size: 46px;
+    margin: 6px 2px;
+  }
   
 }
 
