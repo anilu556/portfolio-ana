@@ -619,6 +619,12 @@ li{
   .contact_span{
     font-size: 14px;
   }
+
+  .fa-linkedin-in, .fa-github, .fa-twitter, .fa-instagram{
+    color: white;
+    font-size: 22px;
+    margin: 20px 20px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -636,7 +642,6 @@ li{
     background: url(./images/back-dos.png);
     padding: 90px 30px 60px 30px;
   }
-
 
   .fa-html5, .fa-css3-alt{
     color: white;
