@@ -6,7 +6,8 @@ import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import Scroll from './components/Scroll';
 
 class App extends Component {
 
@@ -20,6 +21,7 @@ class App extends Component {
       <Route path= "/work" component={Work}/>
       <Route path= "/contact" component={Contact}/>
       </Switch>
+      <Scroll />
       <Footer  />
       </React.Fragment>
     )

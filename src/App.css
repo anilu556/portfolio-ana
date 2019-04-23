@@ -207,7 +207,7 @@ margin: 15px;
 }
 
 .swork_projects{
-  padding: 0 60px;
+  padding: 60px;
 }
 
 .swork_img{
@@ -345,6 +345,73 @@ a{
   color: #41A3C6;
   font-weight: bold; 
 }
+
+/* Contact */
+
+.scontact{
+  margin-top: 60px;
+  background: url(./images/back-dos.png);
+  padding: 90px 60px 60px 60px;
+}
+
+.cont_port{
+  color: #41A3C6;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 0;
+}
+
+.contact_columns{
+  display: flex;
+  margin: 50px 250px;
+}
+
+.contact_left{
+  width: 10%;
+}
+
+.contact_right{
+  width: 40%;
+}
+
+.contact_middle{
+  width: 50%;
+}
+
+.contact_space{
+  height: 50px;
+  padding: 25px;
+}
+
+.fa-mobile-alt, .fa-hashtag, .fa-thumbtack{
+  color: #383838;
+  font-size: 44px;
+  margin: 0;
+}
+
+.fa-envelope-open-text{
+  color: #383838;
+  font-size: 44px;
+  margin: 0 0 0 -7px;
+}
+
+.contact_text{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px;
+  color: #41A3C6;
+}
+
+.contact_span{
+  font-size: 18px;
+  margin: 0;
+}
+
+.contact_desc{
+  display: block;
+  font-size: 16px;
+}
+
 /* Footer */
 .footer{
   background: black;
@@ -377,10 +444,6 @@ li{
 /* Responsive */ 
 
 @media only screen and (max-width: 1024px) {
-
-  .home{
-    position: absolute;
-  }
 
   .project_cards_dev{
     display: inline;
@@ -416,22 +479,43 @@ li{
   .fa-briefcase{
     margin: 5px;
   }  
+
+  .contact_columns{
+    display: flex;
+    margin: 50px 150px;
+  }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   
+  .contact_columns{
+    display: flex;
+    margin: 50px 70px;
+  }
+
+  .fa-mobile-alt, .fa-hashtag, .fa-thumbtack{
+    color: #383838;
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .fa-envelope-open-text{
+    color: #383838;
+    font-size: 32px;
+    margin: 0 0 0 -7px;
+  }
+}  
+
+@media only screen and (max-width: 425px) {
+
+  .navbar-img{
+    height: 50px;
+  }
+
   .navbar-option p{
     font-size: 14px;
     color: white;
     font-family: 'Didact Gothic', sans-serif;
-  }
-
-  .par_mob{
-    height: 380px;
-  }
-
-  .par_mob_a{
-    height: 280px;
   }
 
   .shome_skills{
@@ -462,19 +546,75 @@ li{
     font-size: 24px;
     margin: 20px 20px;
   }
+
+  .scontact{
+    margin-top: 40px;
+    background: url(./images/back-dos.png);
+    padding: 90px 40px 60px 40px;
+  }
+
+  .contact_columns{
+    display: flex;
+    margin: 50px 0;
+  }
+
+  .fa-mobile-alt, .fa-hashtag, .fa-thumbtack{
+    color: #383838;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .fa-envelope-open-text{
+    color: #383838;
+    font-size: 20px;
+    margin: 0 0 0 -7px;
+  }
+
+  .contact_space{
+    height: 50px;
+    padding: 5px;
+    margin: 15px 0;
+  }
+
+  .contact_left{
+    margin-right: 10px;
+  }
+
+  .contact_middle{
+    margin-right: 10px;
+  }
+
+  .contact_text{
+    font-size: 12px;
+  }
+  
+  .contact_desc{
+    font-size: 10px;
+  }
+
+  .contact_span{
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
   .navbar-option{
     margin: 0 5px;
   }
+
+  .contact_columns{
+    display: flex;
+    margin: 50px 6px;
+  }
+
+  .scontact{
+    margin-top: 40px;
+    background: url(./images/back-dos.png);
+    padding: 90px 30px 60px 30px;
+  }
 }  
 
 @media only screen and (max-width: 320px) {
-  
-  .navbar{
-    margin-left: 5px;
-  }
 
   .navbar-option{
     margin: 0 5px;
@@ -508,5 +648,22 @@ li{
     margin: 6px 2px;
   }
   
+  .scontact{
+    margin-top: 40px;
+    background: url(./images/back-dos.png);
+    padding: 90px 20px 60px 20px;
+  }
+
+  .contact_middle{
+    margin-right: 0;
+  }
+
+  .contact_text{
+    font-size: 10px;
+  }
+
+  .contact_span{
+    font-size: 12px;
+  }
 }
 

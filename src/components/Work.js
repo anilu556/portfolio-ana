@@ -84,6 +84,35 @@ class Work extends Component {
                     <div className="project_cards_dev">
                         <div className="projects_dev">
                             <Card className={classes.card}>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={mallory}
+                                    title="Mallory"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                        Mallory Furniture
+                                    </Typography>
+                                    <Typography component="p">
+                                    React Front-end Project. 
+                                    CSS flexbox.
+                                    REST API lecture with HTTP methods. 
+                                    React Router.
+                                    Deployed with Netlify.
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/project--mallory-furniture" target="_blank" rel="noopener noreferrer">
+                                        Github
+                                    </a></Button>
+                                    <Button size="small" color="primary"><a href="https://mallory-furniture-project.netlify.com/#/" target="_blank" rel="noopener noreferrer"> 
+                                        Deploy
+                                    </a></Button>
+                                </CardActions>
+                            </Card>
+                        </div>
+                        <div className="projects_dev">
+                            <Card className={classes.card}>
                                  <CardMedia
                                     className={classes.media}
                                     image={appoints}
@@ -94,8 +123,10 @@ class Work extends Component {
                                         Register Appointments
                                     </Typography>
                                     <Typography component="p">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                        across all continents except Antarctica
+                                        React Redux Project. 
+                                        Create, edit and delete elements.
+                                        Use of Bootsrap for styles.
+                                        Deployed with Netlify.
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
@@ -112,32 +143,6 @@ class Work extends Component {
                             <Card className={classes.card}>
                                 <CardMedia
                                     className={classes.media}
-                                    image={mallory}
-                                    title="Mallory"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2">
-                                        Mallory Furniture
-                                    </Typography>
-                                    <Typography component="p">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                        across all continents except Antarctica
-                                    </Typography>
-                                </CardContent>
-                                <CardActions>
-                                    <Button size="small" color="primary"><a href="https://github.com/anilu556/project--mallory-furniture" target="_blank" rel="noopener noreferrer">
-                                        Github
-                                    </a></Button>
-                                    <Button size="small" color="primary"><a href="https://mallory-furniture-project.netlify.com/#/" target="_blank" rel="noopener noreferrer"> 
-                                        Deploy
-                                    </a></Button>
-                                </CardActions>
-                            </Card>
-                        </div>
-                        <div className="projects_dev">
-                            <Card className={classes.card}>
-                                <CardMedia
-                                    className={classes.media}
                                     image={university}
                                     title="University"
                                 />
@@ -146,8 +151,10 @@ class Work extends Component {
                                         Westside University
                                     </Typography>
                                     <Typography component="p">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                        across all continents except Antarctica
+                                        React Router Project. 
+                                        REST API lecture with HTTP methods. 
+                                        REST API with NodeJs, Express, MongoDB and Mongoose. 
+                                        Deployed with Heroku and Netlify.
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
@@ -174,9 +181,10 @@ class Work extends Component {
                                 <Typography gutterBottom variant="h5" component="h2">
                                     Mr. Manager
                                 </Typography>
-                                <Typography component="p">
-                                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                    across all continents except Antarctica
+                                <Typography component="p">   
+                                        Full design with ReactJS, CSS, Bulma for styles and Photoshop.
+                                        REST API with NodeJs, Express, MongoDB and Mongoose.
+                                        Deployed with Heroku and Netlify.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -206,8 +214,9 @@ class Work extends Component {
                                     Dits Consulting S.C.
                                 </Typography>
                                 <Typography component="p">
-                                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                    across all continents except Antarctica
+                                    Wordpress website planning.
+                                    Wordpress configuration and implementation of template.
+                                    Use of HTML and CSS for content and design details.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -229,8 +238,9 @@ class Work extends Component {
                                         Revista Mundo Equino
                                     </Typography>
                                     <Typography component="p">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                        across all continents except Antarctica
+                                    Wordpress website planning.
+                                    Wordpress configuration and implementation of template.
+                                    Use of HTML and CSS for content and design details.
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
@@ -252,8 +262,9 @@ class Work extends Component {
                                         Training Camp
                                     </Typography>
                                     <Typography component="p">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                        across all continents except Antarctica
+                                    Wordpress website planning.
+                                    Wordpress configuration and implementation of template.
+                                    Use of HTML and CSS for content and design details.
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
@@ -275,8 +286,9 @@ class Work extends Component {
                                         Mole Gloria Elena
                                     </Typography>
                                     <Typography component="p">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                        across all continents except Antarctica
+                                    Wordpress website planning.
+                                    Wordpress configuration and implementation of template.
+                                    Use of HTML and CSS for content and design details.
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
