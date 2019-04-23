@@ -99,6 +99,9 @@ class Work extends Component {
                                     REST API lecture with HTTP methods. 
                                     React Router.
                                     Deployed with Netlify.
+                                    <br />
+                                    <br />
+                                    <br />
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
@@ -127,6 +130,9 @@ class Work extends Component {
                                         Create, edit and delete elements.
                                         Use of Bootsrap for styles.
                                         Deployed with Netlify.
+                                        <br />
+                                        <br />
+                                        <br />
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
