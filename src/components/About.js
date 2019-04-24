@@ -14,9 +14,14 @@ class About extends Component {
             </div>    
             <div className="sabout_me">
                 <h1 className="about_port">Sports, Travelling & Technology</h1>
-                <p className="about_about"> I have a Bachelor's Degree in Communication and ever since I graduated, I have been immersed in the digital world.</p>
-                <p className="about_about">I am a person who likes challenges, and being accepted to a bootcamp and changing my career was one of them.</p>
-                <p className="about_about">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <p className="about_about"> I’m a committed, responsible and creative person with the desire to grow  professionally and personally.</p>
+                <br />
+                <p className="about_about">Sports are a very important part of me. I believe that the passion you have for your team is very similar to the passion you have for life and challenges. One of my favorite sites in the world are soccer and baseball stadiums.</p>
+                <br />
+                <p className="about_about">I love to visit new places from my beautiful country and the rest of the world. There are too many destinies to discover, cultures to understand and ¡typical dishes to taste!</p>
+                <br />
+                <p className="about_about">I think that technology, besides of being my source of employment,  is the solution for many problems of the daily life and complex problems.
+                I like to read and learn about new technologies, gadgets and apps that contribute to the community or give a special touch to our life style.</p>
             </div>
             <div className="sabout_exp">
                 <h1 className="about_port">Work Experience & Education</h1>
