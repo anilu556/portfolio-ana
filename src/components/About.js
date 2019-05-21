@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { Parallax } from "react-parallax";
 import about from '../images/image_abno.png';
 import Education from './Education';
 

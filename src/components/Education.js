@@ -14,7 +14,7 @@ class Prueba extends Component {
           >
             <h3 className="vertical-timeline-element-title">Web Coordinator</h3>
             <h4 className="vertical-timeline-element-subtitle">Prototipo México</h4>
-            <p>Creation and actualization of web sites | Community Manager | Digital and multimedia content planner </p>
+            <p>Web sites creation and actualization| Community Manager | Digital and multimedia content planner </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -24,7 +24,7 @@ class Prueba extends Component {
           >
             <h3 className="vertical-timeline-element-title">Web Editor</h3>
             <h4 className="vertical-timeline-element-subtitle">Sección Amarilla</h4>
-            <p>Elaboration of descriptive texts for digital products | SEO strategies </p>
+            <p>Descriptive texts elaboration for digital products | SEO strategies </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
