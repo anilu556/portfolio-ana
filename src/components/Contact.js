@@ -28,7 +28,7 @@ class Contact extends Component {
                     </div>
                     <div className="contact_space">
                         <span className="contact_span">Where I am?</span>
-                        <span className="contact_desc"> I'm from Mexico City but I love Guadalajara. I'd like to contribute to the technology sector of this city.</span>
+                        <span className="contact_desc"> I'm from Mexico City but I moved to Guadalajara four years ago.</span>
                     </div>
                 </div>
                 <div className="contact_right">

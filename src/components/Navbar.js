@@ -36,17 +36,17 @@ const styles = {
           <div className="navbar"> 
             <Link to="/about" className="navbar-option">  
                 <Typography color="inherit" >
-                <p>About</p>
+                <p class="menuText">About</p>
                 </Typography>
             </Link> 
             <Link to="/work" className="navbar-option">    
                 <Typography  color="inherit">
-                <p>Work</p>
+                <p class="menuText">Work</p>
                 </Typography>
             </Link>
             <Link to="/contact" className="navbar-option">     
                 <Typography className="navbar-text" color="inherit">
-                <p>Contact</p>
+                <p class="menuText">Contact</p>
                 </Typography>
             </Link>    
           </div>  

@@ -24,12 +24,13 @@
   color: white;
   font-size: 20px;
   text-align: center;
+  line-height: 0 !important;
+  height: 0;
+  display: flex;
+  align-items: center;
 }
-.navbar-option:hover{
-  background: #000000;
-  background: -webkit-linear-gradient(to bottom, #1b7799, #000000);  
-  background: linear-gradient(to bottom, #1b7799, #000000); 
-  padding: 10px;
+.navbar-option:hover .menuText{
+  color: #c8effa;
 }
 
 /* Home */
@@ -154,7 +155,11 @@ margin: 15px;
   font-size: 18px;
   font-weight: 600;
   width: 120px;
+  height: 40px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .download{
@@ -296,6 +301,7 @@ margin: 15px;
   font-weight: bold;
   margin: 20px 50px;
   background-color: white;
+  border: none;
 }
 
 .ver{
@@ -308,6 +314,7 @@ margin: 15px;
 
 .project_cards_dev{
  display: flex;
+ margin: 20px 0;
 }
 
 .projects_dev{
@@ -319,6 +326,11 @@ margin: 15px;
   -webkit-box-shadow: 3px 3px 19px -6px rgba(20,20,20,1);
   -moz-box-shadow: 3px 3px 19px -6px rgba(20,20,20,1);
   box-shadow: 3px 3px 19px -6px rgba(20,20,20,1);
+  height: 380px;
+}
+
+.MuiTypography-body1-51{
+  height: 100px;
 }
 
 .project_cards_wp{

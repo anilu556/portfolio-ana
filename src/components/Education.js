@@ -8,6 +8,17 @@ class Prueba extends Component {
           <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="2019 - Current"
+            iconStyle={{ background: 'rgb(96, 227, 229)', color: '#fff'}}
+            icon={<i class="fas fa-briefcase"></i>}
+          >
+            <h3 className="vertical-timeline-element-title">Front-end Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Punto Commerce</h4>
+            <p> Development of e commerce with Vtex and Salesforce platforms</p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date="2012 - 2014 | 2016 - 2018"
             iconStyle={{ background: 'rgb(96, 227, 229)', color: '#fff'}}
             icon={<i class="fas fa-briefcase"></i>}

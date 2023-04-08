@@ -28,23 +28,27 @@ class Home extends React.Component {
             },
             {
               "type": "HTML",
-              "level": 80
+              "level": 90
             },
             {
               "type": "CSS",
-              "level": 80
+              "level": 90
             },
             {
               "type": "Javasrcipt",
               "level": 80
             },
             {
-              "type": "React.js",
+              "type": "Bootstrap",
+              "level": 90
+            },
+            {
+              "type": "React JS",
               "level": 70
             },
             {
-                "type": "Node.js",
-                "level": 60
+                "type": "Mobile Apps",
+                "level": 50
             }
           ]
           const colors = {

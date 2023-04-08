@@ -12,8 +12,16 @@ import manager from '../images/mrmanager.png'
 import university from '../images/university.png'
 import dits from '../images/dits.png'
 import me from '../images/me.png'
-import training from '../images/training.png'
-import mole from '../images/mole.png'
+import ceramat from '../images/ceramat.png'
+import onena from '../images/onena.png'
+import natural from '../images/natural.png'
+import paulette from '../images/paulette.png'
+import mens from '../images/mens.png'
+import lety from '../images/lety.png'
+import aspasia from '../images/aspasia.png'
+import friends from '../images/friends.png'
+import habla from '../images/habla.png'
+import fenaoa from '../images/fenaoa.png'
 
 const styles = {
   card: {
@@ -58,13 +66,11 @@ class Work extends Component {
                     this.state.showTech?
                         <div className="work_btns_more">   
                         <div className="work_btn"><i className="fab fa-react"></i></div>
-                        <div className="work_btn"><i className="fab fa-node"></i></div>
                         <div className="work_btn"><i className="fab fa-git"></i></div>
+                        <div className="work_btn"><i className="icon-bootstrap"></i></div>
                         <div className="work_btn"><i className="fab fa-wordpress"></i></div>
                         <div className="work_btn"><i className="fab fa-adobe"></i></div>
-                        <div className="work_btn"><i className="icon-mongodb"></i></div>
                         <div className="work_btn"><i className="icon-heroku"></i></div>
-                        <div className="work_btn"><i className="icon-bootstrap"></i></div>
                     </div> 
                     :null
                     } 
@@ -81,6 +87,217 @@ class Work extends Component {
                 </div> 
                 <div className="swork_projects">
                     <h1 className="work_port">Projects</h1>
+
+                    <div className="project_cards_dev">
+
+                        <div className="projects_dev">
+                            <Card className={classes.card}>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={aspasia}
+                                    title="Aspasia"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                        Aspasia App
+                                    </Typography>
+                                    <Typography component="p">
+                                    React Native Project / Android / IOS / React navigation / Search Engine / Login
+                                    <br />
+                                    <br />
+                                    <br />
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary"><a  rel="noopener noreferrer">
+                                        On process to release
+                                    </a></Button>
+                                </CardActions>
+                            </Card>
+                        </div>
+                        <div className="projects_dev">
+                            <Card className={classes.card}>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={friends}
+                                    title="Friends and Foxes"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                        Friends and Foxes
+                                    </Typography>
+                                    <Typography component="p">
+                                        HTML / CSS / JS / Bootstrap / Git
+                                    <br />
+                                    <br />
+                                    <br />
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary"><a href="https://friendsandfoxes.com/" target="_blank" rel="noopener noreferrer">
+                                        Link
+                                    </a></Button>
+                                </CardActions>
+                            </Card>
+                        </div>
+                        <div className="projects_dev">
+                            <Card className={classes.card}>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={mens}
+                                    title="Mens Fashion"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                        Mens Fashion
+                                    </Typography>
+                                    <Typography component="p">
+                                    Salesfocre Commerce Cloud / HTML / CSS / JS / Bootstrap / React JS 
+                                    <br />
+                                    <br />
+                                    <br />
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary"><a href="https://www.mensfashion.com.mx/" target="_blank" rel="noopener noreferrer">
+                                        Link
+                                    </a></Button>
+                                </CardActions>
+                            </Card>
+                        </div>
+                        <div className="projects_dev">
+                            <Card className={classes.card}>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={lety}
+                                    title="Pastelerías Lety"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                        Pastelerías Lety
+                                    </Typography>
+                                    <Typography component="p">
+                                    Salesfocre Commerce Cloud / HTML / CSS / JS / Bootstrap / React JS 
+                                    <br />
+                                    <br />
+                                    <br />
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary"><a href="https://www.pastelerialety.com/" target="_blank" rel="noopener noreferrer">
+                                        Link
+                                    </a></Button>
+                                </CardActions>
+                            </Card>
+                        </div> 
+                    </div>
+
+
+                    <div className="project_cards_dev">
+
+                        <div className="projects_dev">
+                            <Card className={classes.card}>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={ceramat}
+                                    title="Ceramat"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                        Ceramat
+                                    </Typography>
+                                    <Typography component="p">
+                                    Vtex project / HTML / CSS / JS / Bootstrap / REST API lecture with HTTP methods
+                                    <br />
+                                    <br />
+                                    <br />
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary"><a href="https://www.ceramat.com.mx/" target="_blank" rel="noopener noreferrer">
+                                        Link
+                                    </a></Button>
+                                </CardActions>
+                            </Card>
+                        </div>
+                        <div className="projects_dev">
+                            <Card className={classes.card}>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={onena}
+                                    title="Onena"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                        Onena
+                                    </Typography>
+                                    <Typography component="p">
+                                    Vtex IO project / HTML / CSS / JS / Bootstrap / React JS / REST API lecture with HTTP methods
+                                    <br />
+                                    <br />
+                                    <br />
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary"><a href="https://www.onena.mx/" target="_blank" rel="noopener noreferrer">
+                                        Link
+                                    </a></Button>
+                                </CardActions>
+                            </Card>
+                        </div>
+                        <div className="projects_dev">
+                            <Card className={classes.card}>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={natural}
+                                    title="Natural Scents"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                        Natural Scents
+                                    </Typography>
+                                    <Typography component="p">
+                                    Vtex IO project / HTML / CSS / JS / Bootstrap / React JS / REST API lecture with HTTP methods
+                                    <br />
+                                    <br />
+                                    <br />
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary"><a href="https://www.naturalscents.com.mx/" target="_blank" rel="noopener noreferrer">
+                                        Link
+                                    </a></Button>
+                                </CardActions>
+                            </Card>
+                        </div>
+                        <div className="projects_dev">
+                            <Card className={classes.card}>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={paulette}
+                                    title="Paulette"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                        Paulette
+                                    </Typography>
+                                    <Typography component="p">
+                                    Vtex IO project / HTML / CSS / JS / Bootstrap / React JS / REST API lecture with HTTP methods
+                                    <br />
+                                    <br />
+                                    <br />
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary"><a href="https://www.paulette.com.mx/" target="_blank" rel="noopener noreferrer">
+                                        Link
+                                    </a></Button>
+                                </CardActions>
+                            </Card>
+                        </div> 
+                    </div>
+                    
+
                     <div className="project_cards_dev">
                         <div className="projects_dev">
                             <Card className={classes.card}>
@@ -94,11 +311,11 @@ class Work extends Component {
                                         Mallory Furniture
                                     </Typography>
                                     <Typography component="p">
-                                    React Front-end Project. 
-                                    CSS flexbox.
-                                    REST API lecture with HTTP methods. 
-                                    React Router.
-                                    Deployed with Netlify.
+                                    React Front-end Project / 
+                                    CSS flexbox /
+                                    REST API lecture with HTTP methods /
+                                    React Router /
+                                    Deployed with Netlify /
                                     <br />
                                     <br />
                                     <br />
@@ -116,7 +333,7 @@ class Work extends Component {
                         </div>
                         <div className="projects_dev">
                             <Card className={classes.card}>
-                                 <CardMedia
+                                <CardMedia
                                     className={classes.media}
                                     image={appoints}
                                     title="Appointments"
@@ -126,10 +343,10 @@ class Work extends Component {
                                         Register Appointments
                                     </Typography>
                                     <Typography component="p">
-                                        React Redux Project. 
-                                        Create, edit and delete elements.
-                                        Use of Bootsrap for styles.
-                                        Deployed with Netlify.
+                                        React Redux Project / 
+                                        Create, edit and delete elements /
+                                        Use of Bootsrap for styles /
+                                        Deployed with Netlify /
                                         <br />
                                         <br />
                                         <br />
@@ -157,10 +374,10 @@ class Work extends Component {
                                         Westside University
                                     </Typography>
                                     <Typography component="p">
-                                        React Router Project. 
-                                        REST API lecture with HTTP methods. 
-                                        REST API with NodeJs, Express, MongoDB and Mongoose. 
-                                        Deployed with Heroku and Netlify.
+                                        React Router Project / 
+                                        REST API lecture with HTTP methods / 
+                                        REST API with NodeJs, Express, MongoDB and Mongoose / 
+                                        Deployed with Heroku and Netlify /
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
@@ -188,9 +405,9 @@ class Work extends Component {
                                     Mr. Manager
                                 </Typography>
                                 <Typography component="p">   
-                                        Full design with ReactJS, CSS, Bulma for styles and Photoshop.
-                                        REST API with NodeJs, Express, MongoDB and Mongoose.
-                                        Deployed with Heroku and Netlify.
+                                        Full design with ReactJS / CSS / Bulma for styles and Photoshop /
+                                        REST API with NodeJs / Express / MongoDB and Mongoose /
+                                        Deployed with Heroku and Netlify /
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -208,29 +425,30 @@ class Work extends Component {
                         </div>
                     </div>    
                     <div className="project_cards_wp">
+
                         <div className="projects_wp">
-                        <Card className={classes.card}>
-                            <CardMedia
-                                className={classes.media}
-                                image={dits}
-                                title="Dits"
-                            />
-                            <CardContent>
-                                <Typography gutterBottom variant="h5" component="h2">
-                                    Dits Consulting S.C.
-                                </Typography>
-                                <Typography component="p">
-                                    Wordpress website planning.
-                                    Wordpress configuration and implementation of template.
-                                    Use of HTML and CSS for content and design details.
-                                </Typography>
-                            </CardContent>
-                            <CardActions>
-                                <Button size="small" color="primary"><a href="http://dits.com.mx/" target="_blank" rel="noopener noreferrer">
-                                    Link
-                                </a></Button>
-                            </CardActions>
-                        </Card>
+                            <Card className={classes.card}>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={habla}
+                                    title="Habla Conmigo"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                        Habla Conmigo
+                                    </Typography>
+                                    <Typography component="p">
+                                    Wordpress website planning /
+                                    Wordpress configuration and implementation of template /
+                                    Use of HTML and CSS for content and design details /
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary"><a href="https://hablaconmigo.com.mx/" target="_blank" rel="noopener noreferrer">
+                                        Link
+                                    </a></Button>
+                                </CardActions>
+                            </Card>
                         </div>
                         <div className="projects_wp">
                             <Card className={classes.card}>
@@ -244,9 +462,9 @@ class Work extends Component {
                                         Revista Mundo Equino
                                     </Typography>
                                     <Typography component="p">
-                                    Wordpress website planning.
-                                    Wordpress configuration and implementation of template.
-                                    Use of HTML and CSS for content and design details.
+                                    Wordpress website planning /
+                                    Wordpress configuration and implementation of template /
+                                    Use of HTML and CSS for content and design details /
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
@@ -260,49 +478,49 @@ class Work extends Component {
                             <Card className={classes.card}>
                                 <CardMedia
                                     className={classes.media}
-                                    image={training}
-                                    title="Mr. Manager"
+                                    image={fenaoa}
+                                    title="Fenaoa"
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="h2">
-                                        Training Camp
+                                        Fenaoa
                                     </Typography>
                                     <Typography component="p">
-                                    Wordpress website planning.
-                                    Wordpress configuration and implementation of template.
-                                    Use of HTML and CSS for content and design details.
+                                    Wordpress website planning /
+                                    Wordpress configuration and implementation of template /
+                                    Use of HTML and CSS for content and design details /
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small" color="primary"><a href="https://workingdog.com.mx/trainingcamp/" target="_blank" rel="noopener noreferrer">
+                                    <Button size="small" color="primary"><a href="https://fenaoa.com/" target="_blank" rel="noopener noreferrer">
                                         Link
                                     </a></Button>
                                 </CardActions>
                             </Card>
                         </div>
                         <div className="projects_wp">
-                            <Card className={classes.card}>
-                                <CardMedia
-                                    className={classes.media}
-                                    image={mole}
-                                    title="Mole Gloria Elena"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2">
-                                        Mole Gloria Elena
-                                    </Typography>
-                                    <Typography component="p">
-                                    Wordpress website planning.
-                                    Wordpress configuration and implementation of template.
-                                    Use of HTML and CSS for content and design details.
-                                    </Typography>
-                                </CardContent>
-                                <CardActions>
-                                    <Button size="small" color="primary"><a href="http://molegloriaelena.com.mx/" target="_blank" rel="noopener noreferrer">
-                                        Link
-                                    </a></Button>
-                                </CardActions>
-                            </Card>
+                        <Card className={classes.card}>
+                            <CardMedia
+                                className={classes.media}
+                                image={dits}
+                                title="Dits"
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="h2">
+                                    Dits Consulting S.C.
+                                </Typography>
+                                <Typography component="p">
+                                    Wordpress website planning /
+                                    Wordpress configuration and implementation of template /
+                                    Use of HTML and CSS for content and design details /
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small" color="primary"><a href="http://dits.com.mx/" target="_blank" rel="noopener noreferrer">
+                                    Link
+                                </a></Button>
+                            </CardActions>
+                        </Card>
                         </div>
                     </div>
                 </div>
