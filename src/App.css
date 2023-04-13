@@ -322,6 +322,10 @@ margin: 15px;
   padding: 10px;
 }
 
+.projects_dev p{
+  height: 100px;
+}
+
 .MuiPaper-root-11.MuiPaper-elevation1-14.MuiPaper-rounded-12.MuiCard-root-80.Work-card-78{
   -webkit-box-shadow: 3px 3px 19px -6px rgba(20,20,20,1);
   -moz-box-shadow: 3px 3px 19px -6px rgba(20,20,20,1);
