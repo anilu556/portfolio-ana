@@ -17,16 +17,16 @@ const styles = {
 
     render (){
     const appBarBack = {
-        background: '#000000',
-        background: '-webkit-linear-gradient(to bottom, #41A3C6, #000000)',  
-        background: 'linear-gradient(to bottom, #41A3C6, #000000)' 
+        background: '#4831D4'
     }
 
     const { classes } = this.props;
+
+    
   
     return (
       <div className={classes.root}>
-        <AppBar position="fixed" color="default" style={appBarBack}>
+        <AppBar position="inherit" color="default" style={appBarBack}>
           <Toolbar>
           <div>
             <Link to="/">

@@ -4,7 +4,7 @@ class Contact extends Component {
     render (){
         return(
         <div className="scontact">
-            <h1 className="cont_port">Contact Me</h1>    
+            <h1 className="cont_port">CONTACT ME.</h1>    
             <div className="contact_columns">
                 <div className="contact_left">
                     <div className="contact_space">
@@ -36,7 +36,7 @@ class Contact extends Component {
                         <p className="contact_text"><a href="mailto:anadev.glz@gmail.com?Subject=Hello!" target="_top">anadev.glz@gmail.com</a></p>
                     </div>
                     <div className="contact_space">
-                        <p className="contact_text">55 1289 5983</p>
+                        <p className="contact_text"><a href="https://wa.me/525512895983" target='_blank'>55 1289 5983</a></p>
                     </div>
                     <div className="contact_space">
                         <p className="contact_text">GDL / CDMX</p>

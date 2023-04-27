@@ -7,8 +7,8 @@ class Scroll extends Component {
             <div>
                 <ScrollUpButton
                 EasingType="easeInCubic"
-                StopPosition={10}
-                style={{background: '#41A3C6', fill: 'white'}} 
+                StopPosition={5}
+                style={{background: '#4831D4', fill: 'white'}} 
                 />
             </div>
         )
