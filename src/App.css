@@ -30,8 +30,9 @@
   display: flex;
   align-items: center;
 }
+
 .navbar-option:hover .menuText{
-  color: #c8effa;
+  color: #f562a6;
 }
 
 /* Home */
@@ -111,6 +112,7 @@ margin: 15px;
 .sabout_exp{
   background: #000;
   margin-top: 10px;
+  padding: 0 60px;
 }
 
 .sabout_extra{
@@ -182,7 +184,7 @@ margin: 15px;
   color: #ff1f87;
   font-size: 30px;
   text-align: center;
-  margin-top: 0;
+  margin-top: 30px;
 }
 
 .about_title{
@@ -334,7 +336,7 @@ margin: 15px;
   color:  #ff1f87;
 }
 
-.MuiTypography-root-42.MuiTypography-h5-58.MuiTypography-gutterBottom-69{
+.projects_dev h2{
   color:  #ff1f87;
 }
 
@@ -443,7 +445,6 @@ li{
   text-align: center;
   font-size: 15px;
 }
-
 
 .vertical-timeline-element-content{
   width: 100% !important;
@@ -761,7 +762,6 @@ li{
   flex-direction: column;
 }
 
-
 .skill-row-1, .skill-row-2{
   display: flex;
   flex-wrap: wrap;
@@ -769,76 +769,34 @@ li{
   justify-content: center;
 }
 
-.vertical-timeline{
-  margin: 0 auto !important;
-  padding: 2em 0 !important;
+.aboutWork-title{
+  margin-top: 30px !important;
+  color: #ffffff;
 }
 
-.vertical-timeline-element-content::before{
-  border: none !important;
+.aboutWork-title-subtitle{
+  color: #ffffff;
 }
 
-.vertical-timeline::before{
-  width: 2.5px !important;
+.aboutWork-subtitle{
+  color: #f9f9f9
 }
 
-.vertical-timeline-element{
-  margin: 0 !important;
-}
-
-.vertical-timeline-element-icon{
-display: none;
-}
-
-.vertical-timeline-element-content{
-  position: relative;
-  background: black !important;
-  box-shadow: none;
-  color: #fff;
-  font-size: 20px !important;
-  padding: 0 10px !important;
-  box-shadow: none !important;
-  margin-left: 0 !important;
-}
-
-.vertical-timeline-element-content p{
-  color: #f9f9f9 !important;
+.aboutWork p{
+  color: #f9f9f9;
   font-size: 18px !important;
 }
 
-.vertical-timeline::before{
-  display: none !important;
-}
-
-.vertical-timeline-element-title{
-  margin-top: 30px !important;
-}
-
-.fa-briefcase{
-  color: #4831D4;
-  font-size: 20px;
-  margin: 0 !important;
-}
-
-.fa-graduation-cap{
-  color: #381f94;
-}
-
-.vertical-timeline-element-content ul{
+.aboutWork ul{
   display: block;
+  margin-bottom: 0;
+  padding-left: 3%;
 }
 
-.vertical-timeline-element-content li{
-  list-style:circle;
-}
-
-.vertical-timeline-element-date{
-  display: none !important;
-}
-
-.MuiPaper-root-11.MuiPaper-elevation1-14.MuiPaper-rounded-12.MuiCard-root-80.Work-card-78{
-  height: 430px;
-  background-color: #201F23;
+.aboutWork li{
+  list-style: circle;
+  display:list-item;
+  list-style-position:outside;
 }
 
 .card-back{
@@ -886,4 +844,16 @@ display: none;
   to {
     background-position: 200% center;
   }
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }
