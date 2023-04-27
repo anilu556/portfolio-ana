@@ -52,7 +52,7 @@ class About extends Component {
                     <div className="container_cv">
                         <h1 className="about_cont">DOWNLOAD RESUME.</h1>
                         <div className="download">
-                            <button className="download_btn"><a href="https://drive.google.com/file/d/1qJ7az2Rif2wSG64_uE3lKpBWBp922eo2/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="far fa-file-alt"></i></a></button>
+                            <button className="download_btn"><a href="https://drive.google.com/file/d/1Fofe96SVwXwG1V_O_WW4_460OrgQzBQi/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="far fa-file-alt"></i></a></button>
                         </div>
                     </div>   
                     </div>
